@@ -172,3 +172,4 @@ app.post('/API/login',async(req,res) =>{
 app.listen(port,() => {
     console.log("Starting node.js");
 }) 
+module.exports = app;
